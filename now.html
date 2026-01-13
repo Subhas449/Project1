@@ -18,9 +18,9 @@
         function currentTimestamp() {
             const date = new Date();
             const n = date.toDateString();
-            const time = date.toLocalTimeString();
-            document.getElementById("date").innerHTML = n;
-            document.getElementById("time").innerHTML = time;
+            const time = date.toLocaleTimeString();
+            document.getElementById('date').innerHTML = n;
+            document.getElementById('time').innerHTML = time;
             
         }
         currentTimestamp();
