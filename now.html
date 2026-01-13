@@ -21,9 +21,9 @@
             const time = date.toLocaleTimeString();
             document.getElementById('date').innerHTML = n;
             document.getElementById('time').innerHTML = time;
-            
         }
         currentTimestamp();
+        setInterval(currentTimestamp, 1000);
     </script>
 
 </body>
